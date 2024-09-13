@@ -6,4 +6,8 @@ public class LivretA extends CompteBancaire {
         super(type, solde, 0, tauxRemuneration);
     }
 
+    @Override
+    public boolean debiterMontant(double montant) {
+        return false;
+    }
 }

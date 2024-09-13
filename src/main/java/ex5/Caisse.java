@@ -19,38 +19,19 @@ public class Caisse {
         this.items = new ArrayList<>();
     }
 
-    /**
-     * Getter pour l'attribut nom
-     *
-     * @return the nom
-     */
+    // Getter et setter pour le nom de la caisse
     public String getNom() {
         return nom;
     }
 
-    /**
-     * Setter pour l'attribut nom
-     *
-     * @param nom the nom to set
-     */
     public void setNom(String nom) {
         this.nom = nom;
     }
 
-    /**
-     * Getter pour l'attribut items
-     *
-     * @return the items
-     */
     public List<Item> getItems() {
         return items;
     }
 
-    /**
-     * Setter pour l'attribut items
-     *
-     * @param items the items to set
-     */
     public void setItems(List<Item> items) {
         this.items = items;
     }
